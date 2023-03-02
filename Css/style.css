@@ -1,0 +1,67 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background: whitesmoke;
+}
+
+form{
+    display: flex;
+    width: 55%;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 20px;
+
+}
+
+ h4{
+    display: block;
+    font-size: 30px;
+    margin-left: 22.5%;
+    padding-top: 40px;
+}
+
+form button{
+    background: black;
+    color: white;
+    width: 15%;
+    height: 30px;
+    margin-top: 26px;
+}
+#main{
+    justify-content: center;
+    color: gray;
+}
+
+
+#main input{
+    border: px solid #ccc;
+    padding: 10px;
+  
+}
+
+table{
+    width: 55%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+table th {
+   background: orangered;
+   border-radius: 9%;
+   color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+table td {
+   background: rgb(228, 211, 181);
+   border-radius: 9%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: rgb(46, 43, 43);
+}
