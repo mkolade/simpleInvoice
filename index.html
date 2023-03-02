@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Invoice</title>
+</head>
+<body>
+    
+    <h4>Simple Invoice</h4>
+
+    <form action="" id="invoiceid" onsubmit="return additem()">
+
+        <div id="main">
+            <label for="">Item Name</label>
+            <input type="text" name="" id="item_name" placeholder="Item Name">
+        </div>
+
+        <div id="main">
+            <label for="">Item Quantity</label>
+            <input type="text" name="" id="item_qty" placeholder="Item quantity">
+        </div>
+
+        <div id="main">
+            <label for="">Item Price</label>
+            <input type="text" name="" id="item_price" placeholder="Item Price">
+        </div>
+
+        <button type="submit">Add To Cart</button>
+        
+    </form>
+
+    <table>
+        <tr>
+            <th>Item Name</th>
+            <th>Quantity</th>
+            <th>Price</th>
+            <th>Total</th>
+        </tr>
+
+       <tbody id="body">
+
+       </tbody>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>Total</td>
+            <td id="Alltotal">0.0</td>
+        </tr>
+
+    </table>
+
+
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
